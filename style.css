@@ -1,0 +1,83 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: #0D192C;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #15263F;
+    max-width: 302px;
+    height: auto;
+    border-radius: 15px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 30px;
+}
+
+.name-and-paragraph p {
+    color: #8BACD9;
+}
+
+.description img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.nft-name {
+    color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+}
+
+.creator p {
+    margin-left: 18px;
+    color: white;
+}
+
+.creator span {
+    color: #8BACD9;
+}
+
+.logo-price,
+.remaining-time {
+    display: flex;
+    align-items: center;
+}
+
+.logo-price p {
+    margin-left: 6.5px;
+}
+
+.remaining-time img {
+    margin-right: 6px;
+}
+
+.remaining-time p {
+    color: #8BACD9;
+}
+
+.price {
+    color: cyan;
+}
+
+@media screen and (max-width: 500px){
+    .container {
+        width: 100%;
+    }
+}
